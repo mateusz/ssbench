@@ -1,14 +1,15 @@
 {
-	"name": "silverstripe/installer",
-	"description": "The SilverStripe Framework Installer",
+	"name": "silverstripe/benchmark",
+	"description": "SilverStripe benchmark",
 	"require": {
 		"php": ">=5.3.2",
-		"silverstripe/cms": "self.version",
-		"silverstripe/framework": "self.version",
-		"silverstripe-themes/simple": "*"
+		"silverstripe/cms": "3.1.0.x-dev",
+		"silverstripe/framework": "3.1.0.x-dev",
+		"silverstripe-themes/simple": "*",
+		"fzaninotto/faker": "1.2.0"
 	},
 	"config": {
-		"process-timeout": 600	
+		"process-timeout": 600
 	},
 	"minimum-stability": "dev"
 }
